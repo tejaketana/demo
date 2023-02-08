@@ -51,7 +51,7 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
-  deploy:
+  Release_QA:
     name: QA
     runs-on: ubuntu-latest
     needs: Build_QA
