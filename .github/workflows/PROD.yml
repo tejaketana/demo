@@ -13,11 +13,7 @@ on:
  pull_request:
     branches:
       - main
-      #- 'feature/**'
-      #- 'release/**'
       - 'prod/**'
-
- workflow_dispatch:
 
 jobs:
   Build_Prod:
