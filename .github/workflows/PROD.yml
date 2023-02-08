@@ -8,13 +8,14 @@ env:
 on:
  push:
     branches:
-      -  master
+      -  main
       
  pull_request:
     branches:
-      - master
-      - 'feature/**'
-      - 'release/**'
+      - main
+      #- 'feature/**'
+      #- 'release/**'
+      - 'prod/**'
 
  workflow_dispatch:
 
